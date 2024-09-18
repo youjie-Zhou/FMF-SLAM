@@ -36,4 +36,4 @@ The Realtest-GT and Realtest-Visual datasets enable us to rigorously test and an
 ## Our videos
 
 ## Acknowledgement
-The overall code framework is adapted from RAFT. We thank the authors for the contribution.
+The overall code framework is adapted from DROID-SLAM. We thank the authors for the contribution.
