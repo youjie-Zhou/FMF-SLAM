@@ -24,7 +24,10 @@ python setup.py install
 * TUM dataset: Please see (https://cvg.cit.tum.de/data/datasets/rgbd-dataset).
 * Our datasets: Please see https://pan.baidu.com/s/1SIGRnB16ef6R3JlvQYmWxg. password:1234.
 <blockquote>
-We recorded a new indoor RGBD dataset using a Realsense D415 camera. This dataset features three lighting setups: Bright, Dimmed, and Dark. Each scenario is further divided into two splits: fast and slow motion. Each sequence contains two or more moving individuals and objects.
+We also conduct the experiments on our datasets, which are recorded with a RealSense L515 camera under various lighting conditions under indoor environments with a resolution of 640x480 pixels. Firstly, we record a dataset named Realtest-GT with ground truth in an indoor environment. The Realtest-GT dataset is composed of 6 sequences. Sequences 01-02, 03-04 and 05-06 are recorded under standard, light-changing, and dark conditions, respectively. Each sequence includes RGB and valid depth images, along with the camera's trajectory recorded by a laser tracker. The trajectory recorded by the laser tracker is regarded as the ground truth for the datasets due to the high precision of the laser tracker. Then we record a dataset named Realtest-Visual without ground truth. The Realtest-Visual dataset consists of three sequences with RGB and valid depth images, which are recorded under standard, light-changing, and dark conditions, respectively. All the sequences follow a circular path back to the starting point. 
+
+The Realtest-GT and Realtest-Visual datasets enable us to rigorously test and analyze the effectiveness of our \fmname{} under various indoor conditions in real world, offering both quantitative metrics and qualitative insights. 
+
 </blockquote>
 
 ## Training curve
