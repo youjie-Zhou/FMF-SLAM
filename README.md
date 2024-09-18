@@ -33,6 +33,9 @@ The Realtest-GT and Realtest-Visual datasets enable us to rigorously test and an
 ## Training curve
 ![](training_curve.png)
 
+## Optical flow comparison
+![](optical_flow.png)
+
 ## Our videos
 
 ## Acknowledgement
