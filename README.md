@@ -20,8 +20,8 @@ pip install gdown
 python setup.py install
 
 ## Download dataset 
-* FlyingThings3D: Please see https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html.
-* KITTI: Please see https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=flow.
+* TartanAir dataset: Please see [https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html](https://theairlab.org/tartanair-dataset/).
+* TUM dataset: Please see [https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=flow](https://cvg.cit.tum.de/data/datasets/rgbd-dataset).
 * Our datasets: Please see https://pan.baidu.com/s/1SIGRnB16ef6R3JlvQYmWxg. password:1234.
 <blockquote>
 We recorded a new indoor RGBD dataset using a Realsense D415 camera. This dataset features three lighting setups: Bright, Dimmed, and Dark. Each scenario is further divided into two splits: fast and slow motion. Each sequence contains two or more moving individuals and objects.
