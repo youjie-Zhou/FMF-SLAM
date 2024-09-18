@@ -11,7 +11,10 @@ Most visual SLAM systems perform poorly in challenging environments, such as noi
 * torchvision=0.7.0
 * cudatoolkit=10.1
 ## Installation 
-SFRAFT requires our LieTorch package to be installed. Please see https://github.com/princeton-vl/lietorch for instructions (requires PyTorch >= 1.6). All Cuda kernels required for SFRAFT will automatically be installed with LieTorch.
+conda env create -f environment.yaml
+pip install evo --upgrade --no-binary evo
+pip install gdown
+python setup.py install
 ## Download dataset 
 * FlyingThings3D: Please see https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html.
 * KITTI: Please see https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=flow.
