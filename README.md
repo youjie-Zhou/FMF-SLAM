@@ -22,7 +22,8 @@ python setup.py install
 ## Download dataset 
 * TartanAir dataset: Please see (https://theairlab.org/tartanair-dataset/).
 * TUM dataset: Please see (https://cvg.cit.tum.de/data/datasets/rgbd-dataset).
-* Our datasets: Please see https://pan.baidu.com/s/1SIGRnB16ef6R3JlvQYmWxg. password:1234.
+* Our Realtest-GT dataset: Please see https://pan.baidu.com/s/19SqTy9UIo-72btPwl1jluw. password:1234.
+* Our Realtest-Visual dataset: Please see https://pan.baidu.com/s/1cgD7KZ85SzykIQS1Cw8t1w. password:1234.
 <blockquote>
 We also conduct the experiments on our datasets, which are recorded with a RealSense L515 camera under various lighting conditions under indoor environments with a resolution of 640x480 pixels. Firstly, we record a dataset named Realtest-GT with ground truth in an indoor environment. The Realtest-GT dataset is composed of 6 sequences. Sequences 01-02, 03-04 and 05-06 are recorded under standard, light-changing, and dark conditions, respectively. Each sequence includes RGB and valid depth images, along with the camera's trajectory recorded by a laser tracker. The trajectory recorded by the laser tracker is regarded as the ground truth for the datasets due to the high precision of the laser tracker. Then we record a dataset named Realtest-Visual without ground truth. The Realtest-Visual dataset consists of three sequences with RGB and valid depth images, which are recorded under standard, light-changing, and dark conditions, respectively. All the sequences follow a circular path back to the starting point. 
 
