@@ -38,6 +38,7 @@ The Realtest-GT and Realtest-Visual datasets enable us to rigorously test and an
 ![](optical_flow.png)
 
 ## Our videos
-
+* Indoor videos: Please see https://pan.baidu.com/s/1wLOQy4iFWUhrKGYIoVQozg. password:1234.
+* Outdoor video: Please see https://pan.baidu.com/s/1beVQtT20fBxtQLWHkboZeg. password:1234.
 ## Acknowledgement
 The overall code framework is adapted from DROID-SLAM. We thank the authors for the contribution.
